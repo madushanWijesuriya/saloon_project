@@ -1,0 +1,43 @@
+@import '@/assets/styles/variables.scss';
+
+*,
+body,
+html {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.font-ibm-plex {
+  font-family: 'IBM Plex Sans', sans-serif !important;
+}
+.font-roboto {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.loadingProgress {
+  display: flex;
+  width: 100%;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
